@@ -1,1 +1,2 @@
-Folder View allows the saving and viewing of folders and their sub-directories/files
+Folder View saves metadata about files/folders for viewing later.
+You can merge multiple folders like "Libraries" for windows, but with the advantage of seeing the files offline.
