@@ -1,0 +1,57 @@
+Version 4.6
+Changed to use GITHub
+
+Version 4.5
+*Clicking on files in the view tab will show a count
+*Dragging a file into the view tab will put the file path in the view file text box for easy browsing.
+*Disabled requiring access to each file before putting path in the clipboard
+
+Version 4.4
+*Can save multiple folders at once.
+*Can convert spaces to dots and visa versa as well as caps and lowercase in relative paths.
+*Merging now disables controls like viewing does
+
+Version 4.3
+*Fixed merging
+*Merging two directories that both have the same file name (but different physical files) will now output both.
+*Occasionally the tree list view library hangs. Added a timeout of 5 seconds in case this happens before ignoring the window message.
+*Can no longer sort the columns with folders segregated from files  files and folders are now always mixed.
+*Now has the option to delete the source file as well as the item in the list.
+*Can find duplicate files.
+*Changed the search output to match the normal file tree
+
+Version 4.2:
+*When removing files, shows progress at the bottom.
+*Can now copy selected items from the view tree to the clipboard.
+
+Version 4.1:
+*Added new "about" screen
+*Added option to automatically update the program if there is a newer version available online
+*When searching for files, list view only automatically expands the results if less than 100 items are found.
+*Help file added.
+
+Version 4:
+*Now using a tree list view - shows file size and full path by default.
+*Can delete items from the tree.
+*Can recalculate sizes for individually selected items.
+*Can add files or folders directly into an existing tree view.
+*Can sort by name and size.
+Note: If you want to sort either by folders mixed in by name, or folders separated from files, keep clicking sort - both modes are supported.
+*Saves screen settings on exit, and loads on start.
+
+
+Version 3:
+*When saving individual file lists or when merging, appends date/time by default instead of random number.
+*Can now save the relative path of files instead of absolute path.
+*Search is no longer "live". Press the search button to execute the search.
+*When merging files, shows all in the folderstructures folder in a list for easy multiple merges.
+*On merge you can now remove the base directory.  Useful if you are merging entire drive lists and want the files to be in the same folders. Works best in conjunction with the relative path option.
+
+Version 2:
+*Split functionality into tabs.
+*Added live search.
+*Added merging of file lists
+*Default file extension is now xml instead of txt, so you can open the saved files in a browser easier.
+
+Version 1:
+*Initial release

@@ -1,0 +1,5 @@
+search for multiple words in any order?
+refresh files in folders
+count on select files
+copy links to clipboard
+
