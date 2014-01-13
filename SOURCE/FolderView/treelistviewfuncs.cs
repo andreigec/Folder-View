@@ -11,6 +11,8 @@ using System.Text;
 using System.IO;
 using System.Collections.Generic;
 using System.Configuration;
+using ANDREICSLIB;
+
 namespace FolderView
 {
 	public static class treelistviewfuncs
@@ -272,7 +274,7 @@ namespace FolderView
 		{
 			for (int a = 0; a < fromthis.Items.Count; a++)
 			{
-                String s = ANDREICSLIB.StringUpdates.ToCamelCase(fromthis.Items[a].Text, true, null);
+                String s = StringExtras.ToCamelCase(fromthis.Items[a].Text, true, null);
 				TreeListViewItem TLVI = getItemByName(change, fromthis.Items[a].fullPath);
 				if (TLVI != null)
 					TLVI.Text = s;
@@ -287,7 +289,7 @@ namespace FolderView
 		{
 			for (int a = 0; a < fromthis.Items.Count; a++)
 			{
-                String s = ANDREICSLIB.StringUpdates.ToCamelCase(fromthis.Items[a].Text, true, null);
+                String s = StringExtras.ToCamelCase(fromthis.Items[a].Text, true, null);
 				TreeListViewItem TLVI = getItemByName(change, fromthis.Items[a].fullPath);
 				if (TLVI != null)
 					TLVI.Text = s;
