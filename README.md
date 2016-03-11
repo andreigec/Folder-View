@@ -5,4 +5,4 @@ You can merge multiple folders like "Libraries" for windows, but with the advant
 
 Images
 ======
-![fv1](https://github.com/EvilSeven/Folder-View/raw/master/INFO/folderview.png)
+![fv1](https://cloud.githubusercontent.com/assets/1860848/13691440/f403cf14-e78c-11e5-8930-e752c8429416.png)
